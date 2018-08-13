@@ -1,0 +1,11 @@
+嘿
+	load_cityroom() - 更カ瓜ン
+粂猭
+	object load_cityroom(string city, int num);
+ノ猭
+	更カ瓜ン–畒カ瓜ンカ┮Τ珇常
+	ンい
+把σ
+	arrange_city_location, city_roomfiles, city_coor_short
+
+	Clode@RevivalWorld

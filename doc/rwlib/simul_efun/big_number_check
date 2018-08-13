@@ -1,0 +1,12 @@
+嘿
+	big_number_check() - 浪琩琌计﹃
+粂猭
+	string big_number_check(mixed bn);
+ノ猭
+	璝 bn 才计Α玥肚э夹非计﹃ bnbn 俱计┪﹃
+	璝 bn ぃ才计Α玥肚 0 bn や穿 3,123,141,333 硆腹计
+	Α肚 3123141333
+把σ
+
+
+	Clode@RevivalWorld

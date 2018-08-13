@@ -1,0 +1,4 @@
+#/obj/etc/lotto.c
+database (["long":"    ¨Cª` 500 ¤¸¡A¨C¤Q¤ÀÄÁ¦Û°Ê¶}¼ú¤@¦¸¡A¶}¼ú«á©Ò¦³³Ñ¾l¼úª÷µL­­´Á¼Æ²Ö¿n¦Ü¤U´ÁÀY¼ú¡A¯¬±z©¯¹B¤¤¤j¼ú¡Ilotto				¦C¥X§A¥Ø«eªº§ëª`¸ê®Ælotto 1,2,3,4,5,6		¦@¤»²Õ¼Æ¦r 1 ¨ì 42, ½Ð¨Ì·Ó³rÂI®æ¦¡¿é¤Jlotto N				¦Û°Ê¹q¸£¿ï¸¹ N ª`lotto info 			Åã¥Ü¥Ø«e¦U®a¤Uª`¸ê®Ælotto open			¥ß§Y¶}¼ú(§Å®vÅv­­)ÀY¼ú¡GÁ`±mª÷ 38% + ¤W´Á³Ñ¾l¤§©Ò¦³¼úª÷  (¤»¸¹¥þ¤¤)¤G¼ú¡GÁ`±mª÷ 12%                       (¤»¸¹¥þ¤¤¨ä¤¤¤@¸¹¬°¯S§O¸¹)¤T¼ú¡GÁ`±mª÷ 15%                       (¤­¬P)¥|¼ú¡GÁ`±mª÷ 35%                       (¥|¬P)¤­¼ú¡G¤@«ß 2000 ¤¸, ¦¹ 2000 ¤¸ÃB¥~µo©ñ (¤T¬P)¼úª÷ª÷ÃB¨Ì·Ó¤¤¼ú¤H¼Æ¥­§¡¤À°t¾÷Åéª©¥»¡Gv2.4","unit":"¥x","flag":(["no_amount":1,]),"mass":-1,])
+id_name ({"lotto-machine","[1;36m¼Ö³z±m[m[36mÃ±ª`¾÷[m",})
+lotto_info (["lotto_opening":0,"first_prize":"0","time":1,"total_prize":"0","history":([]),])

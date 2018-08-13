@@ -1,0 +1,39 @@
+/* This program is a part of RW mudlib
+ * See /doc/help/copyright for more info
+ -----------------------------------------
+ * File   : true_pack_animal.c
+ * Author : Clode@RevivalWorld
+ * Date   : 2005-09-09
+ * Note   : 痷工脋
+ * Update :
+ *  o 2000-00-00
+ *
+ -----------------------------------------
+ */
+
+#include <ansi.h>
+#include <inherit.h>
+#include <feature.h>
+#include <equipment.h>
+#include <buff.h>
+
+inherit STANDARD_OBJECT;
+inherit EQUIPMENT;
+
+void create()
+{
+	set_idname("true pack animal", HIW"痷"HIY"工"NOR YEL"脋"NOR);
+	set_temp("status", HIG"肚"NOR GRN"");
+
+	if( this_object()->set_shadow_ob() ) return;
+	
+	set("long", "でノㄓ更珇笆\n");
+	set("unit", "で");
+	set("mass", 0);
+	set("value", 3000000);
+	set("flag/no_amount", 1);
+	set(BUFF_STR, 26);
+	set("buff/status", HIW"痷"HIY"工"NOR YEL"脋"NOR);
+	
+	::setup_equipment(EQ_MOUNT, HIG"畒"NOR GRN"肕"NOR);
+}

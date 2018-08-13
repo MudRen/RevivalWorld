@@ -1,0 +1,294 @@
+/* Array */
+
+[33mallocate[2;37;0m                  °t¸m¤@­Ó°}¦C (array)¡C
+[33mmember_array[2;37;0m              ¦b¤@­Ó°}¦C (array) ©Î¦r¦ê (string) ¤¤§ä´M«ü©wªº¶µ¥Ø (item)¡A¨Ã¶Ç¦^¦¹¶µ¥Ø¬°²Ä´X¶µªº¯Á¤Þ (index)¡C
+[33msort_array[2;37;0m                ±N¤@­Ó°}¦Cªº¤º®e±Æ§Ç¡C
+[33munique_array[2;37;0m              ±N¤@­Óª«¥ó°}¦C¤À²Õ¡C
+
+/* Buffer */
+
+[33mallocate_buffer[2;37;0m           °t¸m¤@­Ó¼È¦s°Ï (buffer)¡C
+[33mcrc32[2;37;0m                     ­pºâ¤@­Ó¼È¦s°Ï©Î¦r¦êªº´`Àô­«ÂÐ½X (cycle redundency code)¡C
+[33mread_buffer[2;37;0m               Åª¨úÀÉ®×¨Ã¶Ç¦^¤@­Ó¼È¦s°Ï¡C
+[33mwrite_buffer[2;37;0m              ±N¤@­Ó¼È¦s°Ï (buffer) ¼g¤J¤@­ÓÀÉ®×¡A
+
+/* Calls */
+
+[33mcall_out[2;37;0m                  ¦b¦P¤@­Óª«¥ó¤¤©µ¿ð¨ç¦¡©I¥s¡C
+[33morigin[2;37;0m                    §PÂ_¥Ø«eªº¨ç¦¡¬O¦p¦ó³Q©I¥sªº¡C
+[33mprevious_object[2;37;0m           ¶Ç¦^©I¥s¥Ø«e³o­Ó¨ç¦¡ªºª«¥ó©Îª«¥ó¦Cªí¡C
+[33mquery_shadowing[2;37;0m           §PÂ_«ü©wªºª«¥ó¬O§_¬°¥¿¦b§ë¼v (shadow) ¨ä¥Lª«¥ó¡C
+[33mremove_call_out[2;37;0m           ¨ú®ø¤@­Ó©µ¿ð¤¤ªº¥~³¡©I¥s (call_out)¡C
+[33mremove_shadow[2;37;0m             ²¾°£»P¤@­Óª«¥ó¦³Ãöªº¥þ³¡§ë¼v (shadow)¡C
+[33mshadow[2;37;0m                    §ë¼v (shadow) ¤@¨Çª«¥óªº¤@­Ó©Î¦h­Ó¨ç¦¡¡C
+[33mthrow[2;37;0m                     ±j¨î¦b¤@­Óª«¥ó¤¤²£¥Í¿ù»~¡C
+
+/* Compile */
+
+[33mgenerate_source[2;37;0m           ²£¥Í»P«ü©wª«¥ó¬Û¹ïÀ³ªº C »y¨¥½X
+
+/* File System */
+
+[33mcp[2;37;0m                        ½Æ»s¤@­ÓÀÉ®×¡C
+[33mfile_size[2;37;0m                 ¨ú±oÀÉ®×ªº¤j¤p¡C
+[33mget_dir[2;37;0m                   ¶Ç¦^¦³Ãö¤@­ÓÀÉ®×¨t²Î¥Ø¿ý (filesystem directory) ªº¸ê°T.
+[33mlink[2;37;0m                      ±N¤@­ÓÀÉ®×Ãìµ²¥t¤@­ÓÀÉ®×¡C
+[33mmkdir[2;37;0m                     »s³y¤@­Ó¥Ø¿ý¡C
+[33mread_bytes[2;37;0m                ±q¤@­ÓÀÉ®×Åª¨ú¤@³s¦ê³sÄòªº¦ì¤¸²Õ (byte) °e¨ì¤@­Ó¦r¦ê¤¤¡C
+[33mread_file[2;37;0m                 §â¤@­ÓÀÉ®×ªº¤º®eÅª¶i¤@­Ó¦r¦ê¸Ì¡C
+[33mrename[2;37;0m                    §ó§ï¤@­ÓÀÉ®×ªº¦WºÙ¡C
+[33mrm[2;37;0m                        §R°£¤@­ÓÀÉ®×¡C
+[33mrmdir[2;37;0m                     §R°£¤@­Ó¥Ø¿ý¡C
+[33mstat[2;37;0m                      ¶Ç¦^»P¤@­ÓÀÉ®×©Î¤@­Ó¥Ø¿ý¬ÛÃöªº¸ê°T¡C
+[33mwrite_bytes[2;37;0m               ±N³sÄòªº¦ì¤¸²Õ (bytes) ¼g¤JÀÉ®×¡C
+[33mwrite_file[2;37;0m                ±N¤@­Ó¦r¦ê¥[¤J¤@­ÓÀÉ®×¡C
+
+/* Floats */
+
+[33macos[2;37;0m                      ¶Ç¦^¤@­Ó¯BÂI¼Æ (float) ªº¤Ï¾l©¶­È (arccosine)¡C
+[33masin[2;37;0m                      ¶Ç¦^¤@­Ó¯BÂI¼Æ (float) ªº¤Ï¥¿©¶­È (arcsine)¡C
+[33matan[2;37;0m                      ¶Ç¦^¤@­Ó¯BÂI¼Æªº¥¿¤Á­È (tangent)¡C
+[33mceil[2;37;0m                      §â¤@­Ó¯BÂI¼Æ¶i¦ì¦¨³Ìªñªº¾ã¼Æ­È¡C
+[33mcos[2;37;0m                       ¶Ç¦^¤@­Ó¯BÂI¼Æªº¾l©¶­È (cosine)¡C
+[33mexp[2;37;0m                       ¥H¤@­Ó¯BÂI¼Æ¬°«ü¼Æ¡A¦ÛµM¹ï¼Æ e ¬°©³¼Æ­pºâ¨ä­È¡C
+[33mfloor[2;37;0m                     §ä¨ì³Ì¾aªñ¤@­Ó¯BÂI¼Æ¾ã¼Æ¡A¤p©ó©Îµ¥©ó¦¹¯BÂI¼Æ¡C·N§Y§â¤@­Ó¯BÂI¼Æªº¤p¼Æ¦ì±Ë¥h.
+[33mlog[2;37;0m                       ¶Ç¦^¤@­Ó¯BÂI¼Æªº¦ÛµM¹ï¼Æ (natural logarithm)¡C
+[33mpow[2;37;0m                       ­pºâ¤@­Ó¯BÂI¼Æ (float) ªº­¼¾­ (exponent)¡C
+[33msin[2;37;0m                       ¶Ç¦^¤@­Ó¯BÂI¼Æªº¥¿©¶­È (sine)¡C
+[33msqrt[2;37;0m                      ¶Ç¦^¤@­Ó¯BÂI¼Æ (float) ªº¥­¤è®Ú (square root)¡C
+[33mtan[2;37;0m                       ¶Ç¦^¤@­Ó¯BÂI¼Æ (float) ªº¥¿¤Á­È (tangent)¡C
+
+/* Functions */
+
+[33mfunction_owner[2;37;0m            ¶Ç¦^«ü©w¨ç¦¡ªº¾Ö¦³ªÌ¡C
+
+/* General */
+
+[33mfilter[2;37;0m                    ¿ï¥X¬Y¨Ç¤¸¯À¡C
+[33mmap[2;37;0m                       ­×§ï¤@­Ó¬M®gÅÜ¼Æ¡C
+[33mrestore_variable[2;37;0m          ±q¤@­Ó¦r¦êÅª¦^ÅÜ¼Æ­È¡C
+[33msave_variable[2;37;0m             ±NÅÜ¼Æ­ÈÀx¦s¬°¤@­Ó¦r¦ê¡C
+[33msizeof[2;37;0m                    ¶Ç¦^¤@­Ó°}¦Cªº¤¸¯À¼Æ¥Ø¡C
+[33mstore_variable[2;37;0m            ³]©w¤@­ÓÅÜ¼Æªº­È¡C
+[33mtypeof[2;37;0m                    ¶Ç¦^¤@­Ó¦¡¤l (expression) ªº¸ê®Æ«¬ºA (type)¡C
+
+/* Interactive */
+
+[33madd_action[2;37;0m                §â°Ï°ì¨ç¦¡ (local function) ³sµ²ª±®aªº©R¥O°Êµü (command verb)¡C
+[33mcommand[2;37;0m                   ¦p¦P¸Óª«¥ó¦Û¤v¿é¤J¤@¯ë¡A°õ¦æ¤@­Ó©R¥O¡C
+[33mcommands[2;37;0m                  ¶Ç¦^¤@¨Ç¸ê°T¡A¦³Ãö©ó¦¹¨Ï¥ÎªÌ¥i¥H¨Ï¥Îªº©R¥O¡C
+[33mdisable_commands[2;37;0m          ±N¤@­Ó¬¡ª«¥ó (living) ³]©w¬°¡u«D¬¡µÛ¡v(non-living)¡C
+[33mdisable_wizard[2;37;0m            ¨ú®ø¤@­Óª«¥óªº§Å®v¯SÅv¡C
+[33med[2;37;0m                        ½s¿è¤@­ÓÀÉ®×¡C
+[33menable_commands[2;37;0m           ¤¹³\ª«¥ó¨Ï¥Îª±®a (player) ªº©R¥O¡C
+[33menable_wizard[2;37;0m             ±N§Å®vªº¯SÅvµ¹¤©¤@­Óª«¥ó¡C
+[33mexec[2;37;0m                      §â¤@­Ó¤¬°Êª±®a³s½u (user (interactive) connection) ¤Á´«¨ì¥t¥~¤@­Óª«¥ó¤W¡C
+[33mfind_player[2;37;0m               ¥H¦W¦r´M§ä¤@­Óª±®a¡C
+[33mget_char[2;37;0m                  Åý¿é¤Jªº¤U¤@­Ó¦r¤¸°e©¹¤@­Ó«ü©wªº¨ç¦¡¡C
+[33min_edit[2;37;0m                   §PÂ_¤@­Óª±®a¬O§_¦b½s¿èµ{¦¡·í¤¤¡C
+[33min_input[2;37;0m                  §PÂ_¤@­Óª±®a¬O§_¥¿¦b¿é¤J input_to ¨ç¦¡¡C
+[33minput_to[2;37;0m                  Åý¿é¤Jªº¤U¤@¦æ¤º®e°e©¹¤@­Ó«ü©wªº¨ç¦¡¡C
+[33minteractive[2;37;0m               §PÂ_¤@­Ó«ü©wªºª«¥ó¬O§_¬°¡u¤¬°Ê¡v(interactive)¡C
+[33mmessage[2;37;0m                   °e°T®§µ¹¬¡ª«¥ó (living)¡C
+[33mnotify_fail[2;37;0m               ¶Ç¦^¤@¬q¿ù»~°T®§¡C
+[33mprintf[2;37;0m                    Âà´«¦¨«ü©w®æ¦¡ªº¿é¥Xµ²ªG¡C
+[33mquery_host_name[2;37;0m           ¶Ç¦^¥D¾÷¦WºÙ (host name)¡C
+[33mquery_idle[2;37;0m                ¸ß°Ý¤@­Ó¤¬°Ê (interactive) ª±®a¤w¸gµo§b (idle) ´X¬í¡C
+[33mquery_ip_name[2;37;0m             ¶Ç¦^«ü©wª±®aª«¥óªº ip ¦WºÙ¡C
+[33mquery_ip_number[2;37;0m           ¶Ç¦^ª±®aª«¥óªº ip ¸¹½X¡C
+[33mquery_ip_port[2;37;0m             ¶Ç¦^«ü©wª±®aª«¥óªº ip °ð (port)¡C
+[33mquery_notify_fail[2;37;0m         ¸ß°Ý¤@­Ó¤¬°Ê (interactive) ª«¥ó¬O§_¦³©µÌXªº notify_fail()¡C
+[33mquery_snoop[2;37;0m               ¤@­Ó¤¬°Ê (interactive) ª«¥óªººÊÅ¥ªÌ (snooper)¡C
+[33mquery_snooping[2;37;0m            ¶Ç¦^ª«¥ó¥¿¦bºÊÅ¥ (snoop) ªºª«¥ó¡C
+[33mreceive[2;37;0m                   ¹ï¥Ø«eªºª«¥óÅã¥Ü¤@¬q°T®§¡C
+[33mremove_action[2;37;0m             ¸Ñ°£°Ï°ì¨ç¦¡ (local function) »P©R¥O°Êµü (command verb) ªº³sµ²¡C
+[33mremove_interactive[2;37;0m        Åý¤@­Ó¤¬°Êª«¥óÂ_½u¡C
+[33mresolve[2;37;0m                   Âà´«¤@­Óºô»Úºô¸ô¦ì§} (internat address) ¬°ºô°ì¦WºÙ (domain name)¡C
+[33msay[2;37;0m                       §â°T®§°eµ¹©Ò¦³¦P¤@­ÓÀô¹Ò¤¤ªº¨Ï¥ÎªÌ¡C
+[33mshout[2;37;0m                     ¹ï©Ò¦³ªº¬¡ (living) ª«¥ó°e¥X°T®§¡C
+[33msnoop[2;37;0m                     ¿sµø¤@­Ó¤¬°Ê¨Ï¥ÎªÌ (interactive user)¡C
+[33mthis_player[2;37;0m               ¶Ç¦^¥Nªí¥Ø«eª±®aªºª«¥ó¡C
+[33muserp[2;37;0m                     §PÂ_«ü©wªºª«¥ó¬O§_´¿¬°¤¬°Ê (interactive)¡C
+[33musers[2;37;0m                     ¶Ç¦^¤@­Ó¥]§t©Ò¦³¤¬°Ê (interactive) ª±®aªº°}¦C¡C
+[33mwizardp[2;37;0m                   §PÂ_«ü©wªºª«¥ó¬O§_´¿¦b¨ä¤¤°õ¦æ¹L enable_wizard()¡C
+[33mwrite[2;37;0m                     ¹ï¥Ø«eªºª±®a°e¥X°T®§¡C
+
+/* Internals */
+
+[33mcache_stats[2;37;0m               ³ø§iÅX°Êµ{¦¡©M mudlib ªº¤@¨Ç²Î­p¸ê®Æ¡C
+[33mdebug_info[2;37;0m                Åã¥Ü°£¿ù (debug) ¸ê°T¡C
+[33mdump_file_descriptors[2;37;0m     ¶É¦L (dump) MudOS °õ¦æµ{§Ç (process) ªºÀÉ®×´y­z­Èªí (file descriptor table)¡C
+[33mdump_prog[2;37;0m                 ¶É¦L (dump)¡þ¤Ï²ÕÄ¶ (disassemble) ¤@­Ó LPC ª«¥ó¡C
+[33mdumpallobj[2;37;0m                ³ø§i©Ò¦³¤w¸ü¤J¤§ª«¥óªº¤@¨Ç²Î­p¸ê®Æ¡C
+[33mget_config[2;37;0m                ¸ß°Ý¤@¨ÇÅX°Êµ{¦¡ªº¨t²Î³]©w­È (config settings)¡C
+[33mmalloc_status[2;37;0m             ³ø§i°O¾ÐÅé¨Ï¥Î±¡§Îªº¤@¨Ç²Î­p¸ê®Æ¡C
+[33mmemory_info[2;37;0m               ¨ú±o¤@­Óª«¥ó©Î¾ã­Ó mud °O¾ÐÅé¨Ï¥Îªº¸ê°T¡C
+[33mmud_status[2;37;0m                ³ø§i¤@¨ÇÅX°Êµ{¦¡¤Î mudlib ªº²Î­p¼Æ¦r¡C
+[33mopcprof[2;37;0m                   ³ø§i¤@¨Ç¥~³¡¨ç¦¡ (efun) ³Q©I¥sªºÀW²v²Î­p¡C
+[33mquery_load_average[2;37;0m        ³ø§i mud ªº¨t²Î¥­§¡­t¸ü¶q (load average)¡C
+[33mrefs[2;37;0m                      ¶Ç¦^¤@­Ó¸ê®Æµ²ºc (data structure) ªº°Ñ¦Ò¼Æ (number of references)¡C
+[33mrusage[2;37;0m                    ³ø§i¥H getrusage() ¨t²Î©I¥s (system call) ¦¬¶°ªº¸ê°T¡C
+[33mswap[2;37;0m                      ª½±µ§â¤@­ÓÀÉ®×¥æ´« (swap) ¥X¥h¡qÄ¶«ö¡G¥µ¨ìµwºÐªº¥æ´«ÀÉ¸ÌÀY¡r¡C
+[33mtrace[2;37;0m                     ³]©w°lÂÜºX¼Ð (trace flags) ¨Ã¶Ç¦^ÂÂªººX¼Ð­È¡C
+[33mtraceprefix[2;37;0m               ³]©w¦r­º (prefix) ¥H¨M©w¸Ó°lÂÜ­þ¤@­Óª«¥ó¡C
+
+/* Mappings */
+
+[33mallocate_mapping[2;37;0m          ¹w¥ý°t¸m (pre-allocate) ¤@¶ô°O¾ÐÅéµ¹¤@­Ó¬M®gÅÜ¼Æ (mapping)¡C
+[33mkeys[2;37;0m                      ¶Ç¦^¤@­Ó°}¦C¡A¬O¬M®g (key, value)¡q §Y (ÃöÁä¦r, ¤º®e­È)¡r¸ê®Æ¤¤¥þ³¡ªº key¡qÃöÁä¦r¡r¡C
+[33mmap_delete[2;37;0m                ¥HÃöÁä¦r¬°·Ç¡A±q¤@­Ó¬M®g¤¤§R°£¤@¹ï (ÃöÁä¦r, ¤º®e­È)¡q§Y (key, value)¡r¡C
+[33mmatch_path[2;37;0m                ¦b¤@­Ó¬M®g¤§¤¤´M§ä¤@­Ó¸ô®| (path)¡C
+[33mvalues[2;37;0m                    ±N¤@­Ó¬M®gªº (ÃöÁä¦r, ¤º®e­È)¡q§Y (keys, values)¡rªº©Ò¦³¤º®e­È (value) ¥H°}¦C«¬ºA¶Ç¦^¡C
+
+/* Mixed */
+
+[33mbufferp[2;37;0m                   §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°¤@­Ó¼È¦s°Ï (buffer)¡C
+[33mclassp[2;37;0m                    §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°Ãþ§OÅÜ¼Æ (class)¡C
+[33mfloatp[2;37;0m                    §PÂ_«ü©wªºÅÜ¼Æ¬O§_¬°¯BÂI¼Æ (float)¡C
+[33mfunctionp[2;37;0m                 §PÂ_«ü©wªºÅÜ¼Æ¬O§_¬°¤@­Ó¨ç¦¡«ü¼Ð (function pointer)¡C
+[33mintp[2;37;0m                      §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°¤@­Ó¾ã¼Æ (integer)¡C
+[33mmapp[2;37;0m                      §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°¬M®g (mapping)¡C
+[33mobjectp[2;37;0m                   §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°¤@­Óª«¥ó (object)¡C
+[33mpointerp[2;37;0m                  §PÂ_«ü©wªºÅÜ¼Æ¬O§_¬°¤@­Ó°}¦C (array)¡C
+[33mstringp[2;37;0m                   §PÂ_¤@­Ó«ü©wªºÅÜ¼Æ¬O§_¬°¦r¦ê (string)¡C
+[33mundefinedp[2;37;0m                §PÂ_«ü©wªºÅÜ¼Æ¬O§_¥¼©w¸q¡C
+
+/* Mudlib */
+
+[33mexport_uid[2;37;0m                [1;31m<µL>[2;37;0m
+[33mfind_living[2;37;0m               §ä¥X¤@­Ó«ü©w id ¡qÃÑ§O¦WºÙ¡rªº¬¡ (living) ª«¥ó¡C
+[33mgeteuid[2;37;0m                   ¶Ç¦^¤@­Óª«¥ó©Î¬O¤@­Ó¨ç¦¡ªº euid¡qeffective user id¡A¦³®Ä¨Ï¥ÎªÌÃÑ§O¦WºÙ¡r
+[33mgetuid[2;37;0m                    ¶Ç¦^¤@­Óª«¥óªº uid¡quser id¡A¨Ï¥ÎªÌÃÑ§O¦WºÙ¡r¡C
+[33mliving[2;37;0m                    §PÂ_«ü©wªº¤@­Óª«¥ó¬O§_¡u¬¡µÛ¡v¡C
+[33mlivings[2;37;0m                   ¶Ç¦^¤@­Ó©Ò¦³¬¡ª«¥óªº°}¦C¡C
+[33mset_living_name[2;37;0m           ³]©w¤@­Ó¬¡ª«¥óªº¥Íª«¦WºÙ (living name)¡C
+[33mseteuid[2;37;0m                   ³]©w¤@­Óª«¥óªº euid¡qeffective user id¡A¦³®Ä¨Ï¥ÎªÌÃÑ§O¦WºÙ¡r¡C
+
+/* Number */
+
+[33mrandom[2;37;0m                    ¶Ç¦^¤@­Ó¡u°²¡v¶Ã¼Æ (pseudo-random number)¡C
+
+/* Objects */
+
+[33mall_inventory[2;37;0m             ¶Ç¦^¤@­Óª«¥óªº¤º®eª««~ (inventory)¡C
+[33mchildren[2;37;0m                  ¶Ç¦^¤@­Ó°}¦C¡A¬O±q«ü©wªºÀÉ®×©Ò½Æ»s¥X¨Óªºª«¥ó¡C
+[33mclonep[2;37;0m                    §PÂ_«ü©wªº¤@­ÓÅÜ¼Æ¬O§_«ü¦V¤@­Ó½Æ»sª«¥ó¡C
+[33mdeep_inventory[2;37;0m            ¶Ç¦^¤@­Óª«¥óªº±_ª¬ (nested) ¤º®eª««~¡C¡qÄ¶«ö¡G¤£¦P©ó inventory()¡A¦pªG²Ä¤@¼hª««~¤¤ÁÙ§t¦³¨ä¥Lª««~¡A±N·|¤@¼h¼hÄ~Äò´M§ä¤U¥h¡Aª½¨ì¶Ç¦^©Ò¦³ªºª«¥ó¬°¤î¡C³oºØ¤@¼h¼h´`§Çº¥¶iªºµ²ºcºÙ¬°¡u±_ª¬¡v¡C¡r
+[33mdestruct[2;37;0m                  ²¾°£¤@­Óª«¥ó¡C
+[33menvironment[2;37;0m               ¶Ç¦^¤@­Óª«¥ó©Ò³BªºÀô¹Ò¡C
+[33mfile_name[2;37;0m                 ¨ú±o¤@­Óª«¥óªºÀÉ®×¦WºÙ¡C
+[33mfind_object[2;37;0m               ¥HÀÉ®×¦WºÙ´M§ä¤@­Óª«¥ó¡C
+[33mfirst_inventory[2;37;0m           ¶Ç¦^¤@­Óª«¥óªº¤º®eª««~¤¤©Ò§tªº²Ä¤@¥óª««~¡C
+[33mmaster[2;37;0m                    ¶Ç¦^¥D®_ª«¥ó (master object)¡C
+[33mmove_object[2;37;0m               §â¥Ø«eªºª«¥ó·h¨ì¨ä¥LªºÀô¹Ò (environment) ¤¤¡C
+[33mnext_inventory[2;37;0m            ¶Ç¦^¦P¤@ª«¥ó¤º®eª««~ (inventory) ªº¤U¤@­Óª«¥ó¡C
+[33mobjects[2;37;0m                   ¶Ç¦^¤@­Ó©Ò¦³¤w¸ü¤Jª«¥óªº°}¦C (array)¡C
+[33mpresent[2;37;0m                   ¥Hª««~ªº id ¡qÃÑ§O¦WºÙ¡r´M§äª«¥ó¡C
+[33mquery_heart_beat[2;37;0m          ¸ß°Ý¤@­Óª«¥óªº¤ß¸õ (heart beat) ª¬ªp¡C
+[33mreload_object[2;37;0m             §â¤@­Óª«¥óÁÙ­ì¦¨­è­è¸ü¤Jªºª¬ºA¡C
+[33mrestore_object[2;37;0m            ±q¤@­ÓÀÉ®×Åª¦^¤@­Óª«¥óªºÅÜ¼Æ­È¡C
+[33msave_object[2;37;0m               ±N¤@­Óª«¥óªºÅÜ¼Æ­ÈÀx¦s¨ì¤@­ÓÀÉ®×¤¤¡C
+[33mset_heart_beat[2;37;0m            ±Ò°Ê©Î¨ú®ø¤@­Óª«¥óªº¤ß¸õ (heartbeat)¡C
+[33mset_hide[2;37;0m                  ¹ï¤@­Ó¥i¥H°ÎÂÜªºª«¥ó³]©w°ÎÂÜºX¼Ð (hide flag)¡C
+[33mtell_object[2;37;0m               ±N°T®§°eµ¹¤@­Óª«¥ó¡C
+[33mtell_room[2;37;0m                 ¹ï¤@­Ó©Ð¶¡¤º©Ò¦³ªºª«¥ó°e¥X°T®§¡C
+[33mvirtualp[2;37;0m                  §PÂ_«ü©wªºÅÜ¼Æ¬O§_«ü¦V¤@­ÓµêÀÀ (virtual) ª«¥ó¡C
+
+/* Parsing */
+
+[33mquery_verb[2;37;0m                ¶Ç¦^²{¦b¥¿¦b°õ¦æªº©R¥O¦WºÙ¡C
+
+/* Sockets */
+
+[33msocket_accept[2;37;0m             ±µ¨ü¤@­Ó socket ªº³s½u (connection)¡C
+[33msocket_acquire[2;37;0m            ±µ¦¬¤@­Ó socket ªº©Ò¦³Åv (ownership)¡C
+[33msocket_address[2;37;0m            ¶Ç¦^¤@­Ó efun socket ªº»·ºÝ¦ì§}¡C
+[33msocket_bind[2;37;0m               ©R¦W (bind a name) ¤@­Ó socket¡C
+[33msocket_close[2;37;0m              Ãö³¬¤@­Ó socket¡C
+[33msocket_connect[2;37;0m            ªì©l¤Æ¤@­Ó socket ¤Wªº³s±µ (connection)¡C
+[33msocket_create[2;37;0m             «Ø¥ß¤@­Ó efun socket¡C
+[33msocket_error[2;37;0m              ¶Ç¦^¤@­Ó socket ¿ù»~½Xªº¤å¦r±Ô­z¡C
+[33msocket_listen[2;37;0m             ¶ÉÅ¥ (listen) ¤@­Ó socket ªº³s±µ (connection)¡C
+[33msocket_release[2;37;0m            ÄÀ©ñ¤@­Ó socket ªº©Ò¦³Åv (ownership) µ¹¥t¤@ª«¥ó¡C
+[33msocket_write[2;37;0m              ³z¹L¤@­Ó socket °e¥X°T®§¡C
+
+/* Strings */
+
+[33mcapitalize[2;37;0m                §â¤@­Ó¦r¦êªº²Ä¤@­Ó¦r¤¸ (character) Âà¦¨¤j¼g¦r¥À¡C
+[33mclear_bit[2;37;0m                 ±N¤@­Ó¦ì¤¸¦r¦ê (bit string) ¤¤ªº¬Y¤@­Ó¦ì¤¸³]¬°¹s¡C
+[33mcrypt[2;37;0m                     ¹ï¤@­Ó¦r¦ê¶i¦æ½s½X (encrypt)¡C
+[33mexplode[2;37;0m                   ¥´Â_¤@­Ó¦r¦ê¡C
+[33mimplode[2;37;0m                   ³sµ²¦h­Ó¦r¦ê¡C
+[33mlower_case[2;37;0m                ±N¤@­Ó«ü©wªº¦r¦ê¤º®eÂà´«¬°¤p¼g¡C
+[33mreg_assoc[2;37;0m                 ¤@­Ó¥¿³W¼Ë¦¡¤l¦r¦êÂ^¨ú¾¹ (regular pattern substring extractor)¡C
+[33mregexp[2;37;0m                    ¥¿³Wªí¥Ü¦¡³B²zµ{¦¡ (regular expression handler)¡C
+[33mrepeat_string[2;37;0m             ­«½Æ¤@­Ó¦r¦ê´X¦¸¡C
+[33mreplace_string[2;37;0m            ¥Î¨ä¥L¦r¦ê´À´«¤@­Ó¦r¦ê¤¤²Å¦X±ø¥óªº¦r¦ê¡C
+[33mset_bit[2;37;0m                   ³]©w¤@­Ó¦ì¤¸¦r¦ê (bitstring) ¤¤ªº¤@­Ó¦ì¤¸ (bit)¡C
+[33msprintf[2;37;0m                   Âà´«¦¨«ü©w®æ¦¡ªº¿é¥Xµ²ªG¡C
+[33mstrcmp[2;37;0m                    §PÂ_¨â­Ó¦r¦ê¶¡ªº»y¥yÃö«Y (lexical relationship)¡C
+[33mstrsrch[2;37;0m                   ¦b¤@­Ó¦r¦ê¤¤´M§ä¤l¦r¦ê (substring)¡C
+[33mterminal_colour[2;37;0m           [1;31m<µL>[2;37;0m
+[33mtest_bit[2;37;0m                  ÀË¬d¤@­Ó¦ì¤¸¦r¦ê (bitstring) ¤¤ªº¬Y¤@­Ó¦ì¤¸ (bit)¡C
+[33mupper_case[2;37;0m                ¶Ç¦^«ü©w¦r¦êªº¤j¼g§Î¦¡¡C
+
+/* Systems */
+
+[33mcall_out_info[2;37;0m             ¨ú±o©µ¿ð¤¤ªº call_out() ¸ê°T¡C
+[33mctime[2;37;0m                     ¶Ç¦^¤@­Ó®É¶¡¦r¦ê¡C
+[33mdeep_inherit_list[2;37;0m         ¨ú±o¤@­Óª«¥ó©ÒÄ~©Ó¤÷ª«¥ó (ancestor) ªº¦Cªí¡C
+[33merror[2;37;0m                     ²£¥Í¤@­Ó°õ¦æ®É¬q (run-time) ¿ù»~¡C
+[33mfind_call_out[2;37;0m             §ä¨ì¦æµ{¤¤¤U¤@­Ó³Q©I¥sªº¥~³¡©I¥s (call out)¡C
+[33mfunction_exists[2;37;0m           ¦b¤@­Óª«¥ó¤§¤¤§ä¥X§t¦³«ü©w¨ç¦¡ªºÀÉ®×¡C
+[33mfunction_profile[2;37;0m          ¹ï¤@­Óª«¥ó¨ú±o¨ç¦¡°¼¼g (profiling) ¸ê°T¡C
+[33minherits[2;37;0m                  §PÂ_¤@­Óª«¥ó¬O§_Ä~©Ó¤@­Ó«ü©wªºÀÉ®×¡C
+[33mlocaltime[2;37;0m                 Âà´«¦¨¥»¦a®É¶¡ (local time)¡C
+[33mreclaim_objects[2;37;0m           ²M°£¥ô¦ó´Ý¯d¦b°O¾ÐÅé¤¤ªºª«¥ó¡C
+[33mreplace_program[2;37;0m           §â this_object() ªºµ{¦¡¸m´«±¼¡C
+[33mreplaceable[2;37;0m               §PÂ_¬O§_¦³¥ô¦ó¨ç¦¡©w¸q©ó¦¹¼h¦¸ (this level)¡C
+[33mset_eval_limit[2;37;0m            ³]©wµû¦ô¯Ó¶O (evaluation cost) ªº¤W­­­È¡C
+[33mset_reset[2;37;0m                 §ó§ï¤@­Óª«¥ó¶ZÂ÷¤U¦¸­«·s³]©w (reset) ªº®É¶¡¡C
+[33mshallow_inherit_list[2;37;0m      ¨ú±o¤@­Óª«¥óªº¤÷ª«¥ó (parents) ¦Cªí¡C
+[33mshutdown[2;37;0m                  Ãö³¬ÅX°Êµ{¦¡¡C
+[33mtime[2;37;0m                      ¶Ç¦^²{¦b®É¨è¶ZÂ÷ 1970 ¦~¤@¤ë¤@¤é¦³¦h¤Ö¬í¡C
+[33muptime[2;37;0m                    ¶Ç¦^¤W¤@¦¸ÅX°Êµ{¦¡­«·s±Ò°Ê¦Ü¤µªº¬í¼Æ¡C
+[33mvariables[2;37;0m                 ¦C¥X«ü©wª«¥óªº©Ò¦³ÅÜ¼Æ¡C
+
+/* V21 */
+
+[33mbind[2;37;0m                      [1;31m<µL>[2;37;0m
+[33munique_mapping[2;37;0m            [1;31m<µL>[2;37;0m
+
+/* New Add by Clode*/
+
+[33mcall_stack[2;37;0m                ¶Ç¦^¼vÅT©I¥s¦¹¨ç¦¡ªº¤@¨Ç¸ê°T¡C
+[33mcopy[2;37;0m                      ¶Ç¦^¤@­Ó§¹¥þ½Æ»sªºÅÜ¼Æ¡C
+[33mfetch_variable[2;37;0m            ¶Ç¦^¤@­ÓÅÜ¼Æªº­È¡C
+[33mfile_length[2;37;0m               ¶Ç¦^¤@­ÓÀÉ®×ªºµ{¦¡¦æ¼Æ¡C
+[33mflush_messages[2;37;0m            ±N¥¼°e¤§°T®§¥ß¨è°e¦Ü¨Ï¥ÎªÌ¡C
+[33mfunctions[2;37;0m                 ¦C¥X¤@­Óª«¥ó¤W©Ò¦³ªº¨ç¦¡¡C
+[33mheart_beats[2;37;0m               ¶Ç¦^©Ò¦³¾Ö¦³¤ß¸õªºª«¥ó°}¦C¡C
+[33mlpc_info[2;37;0m                  ¶Ç¦^¦³Ãö LPC->C ¤w½sÄ¶ªºª«¥ó¸ê°T¡C
+[33mmemory_summary[2;37;0m            ¶Ç¦^°O¾ÐÅé¨Ï¥ÎªººK­n¡C
+[33mnamed_livings[2;37;0m             ¶Ç¦^©Ò¦³¬¡µÛªºª«¥ó»P¨ä¦WºÙ¡C
+[33mpluralize[2;37;0m                 ¶Ç¦^¤@­Ó¦r¦êªº½Æ¼Æ«¬¡C
+[33mprogram_info[2;37;0m              ¶Ç¦^µ{¦¡°O¾ÐÅé¨Ï¥Îªº¬ÛÃö¸ê°T¡C
+
+/* No Information */
+
+[33m_call_other[2;37;0m               [1;31m<µL>[2;37;0m
+[33m_evaluate[2;37;0m                 [1;31m<µL>[2;37;0m
+[33m_new[2;37;0m                      [1;31m<µL>[2;37;0m
+[33m_this_object[2;37;0m              [1;31m<µL>[2;37;0m
+[33m_to_float[2;37;0m                 [1;31m<µL>[2;37;0m
+[33m_to_int[2;37;0m                   [1;31m<µL>[2;37;0m
+[33mdebug_message[2;37;0m             [1;31m<µL>[2;37;0m
+[33mdestructed_objects[2;37;0m        [1;31m<µL>[2;37;0m
+[33mlog10[2;37;0m                     [1;31m<µL>[2;37;0m
+[33mnetwork_stats[2;37;0m             [1;31m<µL>[2;37;0m
+[33mnext_bit[2;37;0m                  [1;31m<µL>[2;37;0m
+[33moldcrypt[2;37;0m                  [1;31m<µL>[2;37;0m
+[33mquery_replaced_program[2;37;0m    [1;31m<µL>[2;37;0m
+[33msocket_status[2;37;0m             [1;31m<µL>[2;37;0m
+
+- Updated on 10/5/2000 -

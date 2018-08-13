@@ -1,0 +1,150 @@
+05/13/2007 23:34 Preload  ({ /* sizeof() == 74 */
+  "/system/daemons/city_d.c",
+  "/system/daemons/area_d.c",
+  "/system/kernel/creator.c",
+  "/system/daemons/adventure_d.c",
+  "/system/daemons/area_d.c",
+  "/system/daemons/area_d_main.c",
+  "/system/daemons/auction_d.c",
+  "/system/daemons/birthday_d.c",
+  "/system/daemons/bug_d.c",
+  "/system/daemons/building_d.c",
+  "/system/daemons/channel_d.c",
+  "/system/daemons/char_d.c",
+  "/system/daemons/chinese_d.c",
+  "/system/daemons/city_d.c",
+  "/system/daemons/city_d_main.c",
+  "/system/daemons/clean_d.c",
+  "/system/daemons/combat_d.c",
+  "/system/daemons/command_d.c",
+  "/system/daemons/description_d.c",
+  "/system/daemons/dict_d.c",
+  "/system/daemons/emote_d.c",
+  "/system/daemons/enterprise_d.c",
+  "/system/daemons/estate_d.c",
+  "/system/daemons/exchange_d.c",
+  "/system/daemons/finger_d.c",
+  "/system/daemons/ftp_d.c",
+  "/system/daemons/graph_d.c",
+  "/system/daemons/growth_d.c",
+  "/system/daemons/html_d.c",
+  "/system/daemons/http_client_d.c",
+  "/system/daemons/im_d.c",
+  "/system/daemons/intermud2_d.c",
+  "/system/daemons/ip_d.c",
+  "/system/daemons/labor_d.c",
+  "/system/daemons/language_d.c",
+  "/system/daemons/login_d.c",
+  "/system/daemons/logout_d.c",
+  "/system/daemons/mail_d.c",
+  "/system/daemons/map_d.c",
+  "/system/daemons/mapob_d.c",
+  "/system/daemons/material_d.c",
+  "/system/daemons/money_d.c",
+  "/system/daemons/nature_d.c",
+  "/system/daemons/network_d.c",
+  "/system/daemons/news_d.c",
+  "/system/daemons/number_d.c",
+  "/system/daemons/password_d.c",
+  "/system/daemons/ppl_login_d.c",
+  "/system/daemons/product_d.c",
+  "/system/daemons/quantity_d.c",
+  "/system/daemons/quest_d.c",
+  "/system/daemons/question_d.c",
+  "/system/daemons/realnews_d.c",
+  "/system/daemons/salary_d.c",
+  "/system/daemons/schedule_d.c",
+  "/system/daemons/secure_d.c",
+  "/system/daemons/serial_number_d.c",
+  "/system/daemons/shopping_d.c",
+  "/system/daemons/skill_d.c",
+  "/system/daemons/smtp_d.c",
+  "/system/daemons/socket_d.c",
+  "/system/daemons/socket_ob.c",
+  "/system/daemons/sysdatabase_d.c",
+  "/system/daemons/system_d.c",
+  "/system/daemons/tax_d.c",
+  "/system/daemons/terrain_d.c",
+  "/system/daemons/time_d.c",
+  "/system/daemons/top_d.c",
+  "/system/daemons/translate_d.c",
+  "/system/daemons/treasure_d.c",
+  "/system/daemons/virtual_d.c",
+  "/system/daemons/whois_d.c",
+  "/system/daemons/wiz_login_d.c",
+  "/system/daemons/zone_d.c"
+})
+05/13/2007 23:34 更 /system/daemons/city_d.c
+05/13/2007 23:34 更 /system/daemons/area_d.c
+05/13/2007 23:34 更 /system/kernel/creator.c
+05/13/2007 23:34 更 /system/daemons/adventure_d.c
+05/13/2007 23:34 更 /system/daemons/area_d.c
+05/13/2007 23:34 更 /system/daemons/area_d_main.c
+05/13/2007 23:34 更 /system/daemons/auction_d.c
+05/13/2007 23:34 更 /system/daemons/birthday_d.c
+05/13/2007 23:34 更 /system/daemons/bug_d.c
+05/13/2007 23:34 更 /system/daemons/building_d.c
+05/13/2007 23:34 更 /system/daemons/channel_d.c
+05/13/2007 23:34 更 /system/daemons/char_d.c
+05/13/2007 23:34 更 /system/daemons/chinese_d.c
+05/13/2007 23:34 更 /system/daemons/city_d.c
+05/13/2007 23:34 更 /system/daemons/city_d_main.c
+05/13/2007 23:34 更 /system/daemons/clean_d.c
+05/13/2007 23:34 更 /system/daemons/combat_d.c
+05/13/2007 23:34 更 /system/daemons/command_d.c
+05/13/2007 23:34 更 /system/daemons/description_d.c
+05/13/2007 23:34 更 /system/daemons/dict_d.c
+05/13/2007 23:34 更 /system/daemons/emote_d.c
+05/13/2007 23:34 更 /system/daemons/enterprise_d.c
+05/13/2007 23:34 更 /system/daemons/estate_d.c
+05/13/2007 23:34 更 /system/daemons/exchange_d.c
+05/13/2007 23:34 更 /system/daemons/finger_d.c
+05/13/2007 23:34 更 /system/daemons/ftp_d.c
+05/13/2007 23:34 更 /system/daemons/graph_d.c
+05/13/2007 23:34 更 /system/daemons/growth_d.c
+05/13/2007 23:34 更 /system/daemons/html_d.c
+05/13/2007 23:34 更 /system/daemons/http_client_d.c
+05/13/2007 23:34 更 /system/daemons/im_d.c
+05/13/2007 23:34 更 /system/daemons/intermud2_d.c
+05/13/2007 23:34 更 /system/daemons/ip_d.c
+05/13/2007 23:34 更 /system/daemons/labor_d.c
+05/13/2007 23:34 更 /system/daemons/language_d.c
+05/13/2007 23:34 更 /system/daemons/login_d.c
+05/13/2007 23:34 更 /system/daemons/logout_d.c
+05/13/2007 23:34 更 /system/daemons/mail_d.c
+05/13/2007 23:34 更 /system/daemons/map_d.c
+05/13/2007 23:34 更 /system/daemons/mapob_d.c
+05/13/2007 23:34 更 /system/daemons/material_d.c
+05/13/2007 23:34 更 /system/daemons/money_d.c
+05/13/2007 23:34 更 /system/daemons/nature_d.c
+05/13/2007 23:34 更 /system/daemons/network_d.c
+05/13/2007 23:34 更 /system/daemons/news_d.c
+05/13/2007 23:34 更 /system/daemons/number_d.c
+05/13/2007 23:34 更 /system/daemons/password_d.c
+05/13/2007 23:34 更 /system/daemons/ppl_login_d.c
+05/13/2007 23:34 更 /system/daemons/product_d.c
+05/13/2007 23:34 更 /system/daemons/quantity_d.c
+05/13/2007 23:34 更 /system/daemons/quest_d.c
+05/13/2007 23:34 更 /system/daemons/question_d.c
+05/13/2007 23:34 更 /system/daemons/realnews_d.c
+05/13/2007 23:34 更 /system/daemons/salary_d.c
+05/13/2007 23:34 更 /system/daemons/schedule_d.c
+05/13/2007 23:34 更 /system/daemons/secure_d.c
+05/13/2007 23:34 更 /system/daemons/serial_number_d.c
+05/13/2007 23:34 更 /system/daemons/shopping_d.c
+05/13/2007 23:34 更 /system/daemons/skill_d.c
+05/13/2007 23:34 更 /system/daemons/smtp_d.c
+05/13/2007 23:35 更 /system/daemons/socket_d.c
+05/13/2007 23:35 更 /system/daemons/socket_ob.c
+05/13/2007 23:35 更 /system/daemons/sysdatabase_d.c
+05/13/2007 23:35 更 /system/daemons/system_d.c
+05/13/2007 23:35 更 /system/daemons/tax_d.c
+05/13/2007 23:35 更 /system/daemons/terrain_d.c
+05/13/2007 23:35 更 /system/daemons/time_d.c
+05/13/2007 23:35 更 /system/daemons/top_d.c
+05/13/2007 23:35 更 /system/daemons/translate_d.c
+05/13/2007 23:35 更 /system/daemons/treasure_d.c
+05/13/2007 23:35 更 /system/daemons/virtual_d.c
+05/13/2007 23:35 更 /system/daemons/whois_d.c
+05/13/2007 23:35 更 /system/daemons/wiz_login_d.c
+05/13/2007 23:35 更 /system/daemons/zone_d.c

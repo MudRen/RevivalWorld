@@ -1,0 +1,4 @@
+#/system/daemons/exchange_d.c
+IET (["RW":1.000000,])
+exchange_buffer ([])
+exchange_trend ([])
